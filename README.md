@@ -1,27 +1,37 @@
-# Todo
+<p align="center">
+  <img alt="Banco Pan" src="src/assets/readmeImage.png" width="360px">
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.1.
+<br>
 
-## Development server
+## Inicializar Projeto Através do NPM
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Nosso primeiro passo é clonar o projeto e entrar na pasta do projeto;
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```bash
+$ git clone https://github.com/Matheuscara/Angular_ToDo-List
+```
 
-## Build
+O proximo passo é baixar as bibliotecas e iniciar o projeto;
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```bash
+npm install
+npm run start
+```
 
-## Running unit tests
+## Tecnologias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+O desenvolvimento se consiste em tais bibliotecas:
 
-## Running end-to-end tests
+- [Angular](https://angular.io/guide/what-is-angular)
+- [TypeScript](https://www.typescriptlang.org/)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Justificativa de Arquitetura e Bibliotecas:
 
-## Further help
+A minha intenção foi desenvolver uma solução que pudesse ser simples para uma primeira aplicacao, envolvendo todos os conceitos basicos do Angular
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+- typescript:
+  - Tipagem de contextos, gerando menos problemas para o futuro.
+---
